@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/maruba/Documents/AEDA/aeda1920_fp01/lib/googletest-master/googletest/include -isystem /home/maruba/Documents/AEDA/aeda1920_fp01/lib/googletest-master/googletest 
+CXX_INCLUDES = -isystem /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/lib/googletest-master/googletest/include -isystem /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/lib/googletest-master/googletest 
 

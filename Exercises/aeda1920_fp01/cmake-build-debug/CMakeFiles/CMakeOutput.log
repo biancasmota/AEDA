@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,30 +23,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_967a0/fast 
-/usr/bin/make -f CMakeFiles/cmTC_967a0.dir/build.make CMakeFiles/cmTC_967a0.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_967a0.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_967a0.dir/testCCompiler.c.o   -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_967a0
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_967a0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_967a0.dir/testCCompiler.c.o  -o cmTC_967a0 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_9fc5f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9fc5f.dir/build.make CMakeFiles/cmTC_9fc5f.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fc5f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9fc5f.dir/testCCompiler.c.o   -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9fc5f
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fc5f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9fc5f.dir/testCCompiler.c.o  -o cmTC_9fc5f 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_546ae/fast 
-/usr/bin/make -f CMakeFiles/cmTC_546ae.dir/build.make CMakeFiles/cmTC_546ae.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_209b1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_209b1.dir/build.make CMakeFiles/cmTC_209b1.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -55,8 +55,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccppW7FL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccVQ0YOQ.s
 GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
 
@@ -76,15 +76,15 @@ GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 1f42e357acaa2189289675afee565401
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o /tmp/ccppW7FL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o /tmp/ccVQ0YOQ.s
 GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_546ae
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_546ae.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o  -o cmTC_546ae 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_209b1
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_209b1.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o  -o cmTC_209b1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -96,10 +96,10 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_546ae' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLvE23M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_546ae /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_546ae' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_209b1' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKJ0euT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_209b1 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_209b1' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -121,13 +121,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_546ae/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_546ae.dir/build.make CMakeFiles/cmTC_546ae.dir/build]
-  ignore line: [make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_209b1/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_209b1.dir/build.make CMakeFiles/cmTC_209b1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -136,8 +136,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccppW7FL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccVQ0YOQ.s]
   ignore line: [GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
   ignore line: []
@@ -157,15 +157,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 1f42e357acaa2189289675afee565401]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o /tmp/ccppW7FL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o /tmp/ccVQ0YOQ.s]
   ignore line: [GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_546ae]
-  ignore line: [/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_546ae.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o  -o cmTC_546ae ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_209b1]
+  ignore line: [/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_209b1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o  -o cmTC_209b1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -177,13 +177,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_546ae' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLvE23M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_546ae /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_209b1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKJ0euT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_209b1 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccLvE23M.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKJ0euT.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -201,7 +201,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_546ae] ==> ignore
+    arg [cmTC_209b1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -213,7 +213,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_546ae.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_209b1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -243,17 +243,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_82e41/fast 
-/usr/bin/make -f CMakeFiles/cmTC_82e41.dir/build.make CMakeFiles/cmTC_82e41.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82e41.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_82e41.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_82e41
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e41.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_82e41.dir/feature_tests.c.o  -o cmTC_82e41 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2f635/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2f635.dir/build.make CMakeFiles/cmTC_2f635.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f635.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2f635.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2f635
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f635.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2f635.dir/feature_tests.c.o  -o cmTC_2f635 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -263,17 +263,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b4e4f/fast 
-/usr/bin/make -f CMakeFiles/cmTC_b4e4f.dir/build.make CMakeFiles/cmTC_b4e4f.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4e4f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b4e4f.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b4e4f
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4e4f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b4e4f.dir/feature_tests.c.o  -o cmTC_b4e4f 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_11c31/fast 
+/usr/bin/make -f CMakeFiles/cmTC_11c31.dir/build.make CMakeFiles/cmTC_11c31.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11c31.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_11c31.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_11c31
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c31.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_11c31.dir/feature_tests.c.o  -o cmTC_11c31 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -283,17 +283,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0de03/fast 
-/usr/bin/make -f CMakeFiles/cmTC_0de03.dir/build.make CMakeFiles/cmTC_0de03.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0de03.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0de03.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0de03
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de03.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0de03.dir/feature_tests.c.o  -o cmTC_0de03 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_efcb4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_efcb4.dir/build.make CMakeFiles/cmTC_efcb4.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efcb4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_efcb4.dir/feature_tests.c.o   -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_efcb4
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efcb4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_efcb4.dir/feature_tests.c.o  -o cmTC_efcb4 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -301,27 +301,27 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_be6a9/fast 
-/usr/bin/make -f CMakeFiles/cmTC_be6a9.dir/build.make CMakeFiles/cmTC_be6a9.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be6a9.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_be6a9.dir/testCXXCompiler.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_be6a9
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6a9.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_be6a9.dir/testCXXCompiler.cxx.o  -o cmTC_be6a9 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_f1fb2/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f1fb2.dir/build.make CMakeFiles/cmTC_f1fb2.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1fb2.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f1fb2.dir/testCXXCompiler.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f1fb2
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1fb2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f1fb2.dir/testCXXCompiler.cxx.o  -o cmTC_f1fb2 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_56fff/fast 
-/usr/bin/make -f CMakeFiles/cmTC_56fff.dir/build.make CMakeFiles/cmTC_56fff.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_f5ab0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f5ab0.dir/build.make CMakeFiles/cmTC_f5ab0.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -330,8 +330,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccfyjwTk.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cck8Otdf.s
 GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
 
@@ -355,15 +355,15 @@ GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 1110442b7b958f151ae10a1cb5af9032
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfyjwTk.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o /tmp/cck8Otdf.s
 GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_56fff
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fff.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_56fff 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_f5ab0
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5ab0.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f5ab0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -375,10 +375,10 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cchJ5b3m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56fff /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5ab0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN4QVDe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5ab0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5ab0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -406,13 +406,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_56fff/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_56fff.dir/build.make CMakeFiles/cmTC_56fff.dir/build]
-  ignore line: [make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f5ab0/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f5ab0.dir/build.make CMakeFiles/cmTC_f5ab0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -421,8 +421,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccfyjwTk.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cck8Otdf.s]
   ignore line: [GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
   ignore line: []
@@ -446,15 +446,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 1110442b7b958f151ae10a1cb5af9032]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfyjwTk.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o /tmp/cck8Otdf.s]
   ignore line: [GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_56fff]
-  ignore line: [/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fff.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_56fff ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_f5ab0]
+  ignore line: [/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5ab0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f5ab0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -466,13 +466,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cchJ5b3m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_56fff /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5ab0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN4QVDe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5ab0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchJ5b3m.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN4QVDe.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -490,7 +490,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_56fff] ==> ignore
+    arg [cmTC_f5ab0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -502,7 +502,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_56fff.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f5ab0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -528,17 +528,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_62f70/fast 
-/usr/bin/make -f CMakeFiles/cmTC_62f70.dir/build.make CMakeFiles/cmTC_62f70.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62f70.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_62f70.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_62f70
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62f70.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_62f70.dir/feature_tests.cxx.o  -o cmTC_62f70 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_97ce3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_97ce3.dir/build.make CMakeFiles/cmTC_97ce3.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97ce3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_97ce3.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97ce3
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ce3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_97ce3.dir/feature_tests.cxx.o  -o cmTC_97ce3 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -601,17 +601,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c906d/fast 
-/usr/bin/make -f CMakeFiles/cmTC_c906d.dir/build.make CMakeFiles/cmTC_c906d.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c906d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_c906d.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c906d
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c906d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c906d.dir/feature_tests.cxx.o  -o cmTC_c906d 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2f3ad/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2f3ad.dir/build.make CMakeFiles/cmTC_2f3ad.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f3ad.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_2f3ad.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2f3ad
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f3ad.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2f3ad.dir/feature_tests.cxx.o  -o cmTC_2f3ad 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -674,17 +674,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_86cad/fast 
-/usr/bin/make -f CMakeFiles/cmTC_86cad.dir/build.make CMakeFiles/cmTC_86cad.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_86cad.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_86cad.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_86cad
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86cad.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_86cad.dir/feature_tests.cxx.o  -o cmTC_86cad 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_0722c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0722c.dir/build.make CMakeFiles/cmTC_0722c.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0722c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0722c.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0722c
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0722c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0722c.dir/feature_tests.cxx.o  -o cmTC_0722c 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -747,17 +747,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0e3b6/fast 
-/usr/bin/make -f CMakeFiles/cmTC_0e3b6.dir/build.make CMakeFiles/cmTC_0e3b6.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0e3b6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_0e3b6.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0e3b6
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3b6.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_0e3b6.dir/feature_tests.cxx.o  -o cmTC_0e3b6 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_f1250/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f1250.dir/build.make CMakeFiles/cmTC_f1250.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1250.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f1250.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f1250
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1250.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f1250.dir/feature_tests.cxx.o  -o cmTC_f1250 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -820,17 +820,17 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b858c/fast 
-/usr/bin/make -f CMakeFiles/cmTC_b858c.dir/build.make CMakeFiles/cmTC_b858c.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b858c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b858c.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b858c
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b858c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b858c.dir/feature_tests.cxx.o  -o cmTC_b858c 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_5ae78/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5ae78.dir/build.make CMakeFiles/cmTC_5ae78.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ae78.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5ae78.dir/feature_tests.cxx.o -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5ae78
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ae78.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5ae78.dir/feature_tests.cxx.o  -o cmTC_5ae78 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -891,30 +891,30 @@ make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-buil
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1efa7/fast 
-/usr/bin/make -f CMakeFiles/cmTC_1efa7.dir/build.make CMakeFiles/cmTC_1efa7.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1efa7.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1efa7.dir/CheckIncludeFile.c.o   -c /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1efa7
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1efa7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1efa7.dir/CheckIncludeFile.c.o  -o cmTC_1efa7 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_1694d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1694d.dir/build.make CMakeFiles/cmTC_1694d.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1694d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1694d.dir/CheckIncludeFile.c.o   -c /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1694d
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1694d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1694d.dir/CheckIncludeFile.c.o  -o cmTC_1694d 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2fe95/fast 
-/usr/bin/make -f CMakeFiles/cmTC_2fe95.dir/build.make CMakeFiles/cmTC_2fe95.dir/build
-make[1]: Entering directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2fe95.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2fe95.dir/CheckFunctionExists.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2fe95
-/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe95.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2fe95.dir/CheckFunctionExists.c.o  -o cmTC_2fe95 -lpthread 
-make[1]: Leaving directory '/home/maruba/Documents/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_5ea10/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5ea10.dir/build.make CMakeFiles/cmTC_5ea10.dir/build
+make[1]: Entering directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ea10.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5ea10.dir/CheckFunctionExists.c.o   -c /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ea10
+/home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ea10.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5ea10.dir/CheckFunctionExists.c.o  -o cmTC_5ea10 -lpthread 
+make[1]: Leaving directory '/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

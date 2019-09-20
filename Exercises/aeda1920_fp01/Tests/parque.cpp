@@ -4,7 +4,7 @@
 using namespace std;
 
 ParqueEstacionamento::ParqueEstacionamento(unsigned int lot, unsigned int nMaxCli): lotacao(lot), numMaximoClientes(nMaxCli){
-    vagas = 0;
+    vagas = lot;
     clientes.clear();
 }
 
@@ -29,20 +29,18 @@ bool ParqueEstacionamento::adicionaCliente(const string & nome){
 }
 
 bool ParqueEstacionamento::entrar(const string & nome){
-    if(vagas == lotacao) return false;
+    if(!vagas) return false;
     int posicao = posicaoCliente(nome);
-    if (posicao == -1) return false;
-    if (clientes[posicao].presente) return false;
+    if (posicao == -1 || clientes[posicao].presente) return false;
 
-    vagas++;
+    vagas--;
     clientes[posicao].presente = true;
     return true;
 }
 
 bool ParqueEstacionamento::retiraCliente(const string & nome){
     int posicao = posicaoCliente(nome);
-    if (posicao == -1) return false;
-    if (clientes[posicao].presente) return false;
+    if (posicao == -1 || clientes[posicao].presente) return false;
 
     clientes.erase(clientes.begin()+posicao,clientes.begin()+posicao+1);
     return true; 
@@ -50,16 +48,15 @@ bool ParqueEstacionamento::retiraCliente(const string & nome){
 
 bool ParqueEstacionamento::sair(const string & nome){
     int posicao = posicaoCliente(nome);
-    if (posicao == -1) return false;
-    if (!clientes[posicao].presente) return false;
+    if (posicao == -1 || !clientes[posicao].presente) return false;
 
-    vagas--;
+    vagas++;
     clientes[posicao].presente = false;
     return true;
 }
 
 unsigned int ParqueEstacionamento::getNumLugaresOcupados() const{
-    return vagas;
+    return lotacao-vagas;
 }
 unsigned int ParqueEstacionamento::getNumClientesAtuais() const{
     return clientes.size();
