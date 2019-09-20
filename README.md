@@ -10,5 +10,6 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
 
 - __1º pratical class__: Classes and const variables. _(19 of september of 2019)_   
   Solution: [aeda1920_fp01](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp01)  
-  Instructions: [aeda1920_fp01.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp01.pdf) 
+  Instructions: [aeda1920_fp01.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp01.pdf)  
+  Clean Exercise: [aeda1920_fp01](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp01)
 
