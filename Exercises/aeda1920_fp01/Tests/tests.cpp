@@ -86,6 +86,16 @@ TEST(test_1, f_LugaresLotacaoParque){
     p1.adicionaCliente("Antonio");
     p1.entrar("Maria");
     p1.entrar("Antonio");
+
+//    ParqueEstacionamento p2(3, 5);
+//    p2.adicionaCliente("Fulano");
+//    p2.adicionaCliente("Beltrano");
+//    p2.adicionaCliente("Cicrano");
+//    p2.entrar("Beltrano");
+//    p2.entrar("Cicrano");
+//
+//    p1+= p2;
+    cout << p1.vagas << endl;
     // Testa se Lotacao do parque est� correcta
     ASSERT_EQ(3, p1.getNumLugares());
     // Testa se o numero de viaturas presentes no parque est� correcto
@@ -93,3 +103,13 @@ TEST(test_1, f_LugaresLotacaoParque){
     // Testa se o o n�mero de clientes registados no parque est� correcto
     ASSERT_EQ(3, p1.getNumClientesAtuais());
 }
+
+//TEST(test_1, g_operator){
+//    ParqueEstacionamento p1(3, 5);
+//    p1.adicionaCliente("Joao");
+//    p1.adicionaCliente("Maria");
+//    p1.adicionaCliente("Rui");
+//    p1.entrar("Maria");
+//    p1.entrar("Joao");
+//    p1.entrar("Rui");
+//}

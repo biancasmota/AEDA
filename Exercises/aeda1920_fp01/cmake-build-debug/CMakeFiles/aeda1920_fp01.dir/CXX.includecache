@@ -516,12 +516,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/Tests/parque.cpp
-parque.h
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/Tests/parque.h
-vector
--
-
 /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/Tests/parque.h
 iostream
 -
@@ -539,10 +533,4 @@ parque.h
 /home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/Tests/parque.h
 string
 -
-
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/main.cpp
-gtest/gtest.h
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/gtest/gtest.h
-gmock/gmock.h
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp01/gmock/gmock.h
 

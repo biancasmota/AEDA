@@ -61,3 +61,20 @@ unsigned int ParqueEstacionamento::getNumLugaresOcupados() const{
 unsigned int ParqueEstacionamento::getNumClientesAtuais() const{
     return clientes.size();
 }
+
+const ParqueEstacionamento & ParqueEstacionamento::operator+= (const ParqueEstacionamento & p2){
+
+    size_t size = p2.clientes.size();
+    if (vagas == 0)
+        return *this;
+    if (size < vagas){
+        clientes.insert(clientes.end(),p2.clientes.begin(), p2.clientes.end());
+        vagas = vagas - size;
+    }
+    else{
+        clientes.insert(clientes.end(), p2.clientes.begin(), p2.clientes.begin()+vagas);
+        vagas = lotacao;
+    }
+    return *this;
+
+}
