@@ -13,3 +13,8 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
   Instructions: [aeda1920_fp01.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp01.pdf)  
   Clean Exercise: [aeda1920_fp01](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp01)
 
+- __2º pratical class__: Inherent and polimorphism. _(02 of october of 2019)_ 
+  Solution: [aeda1920_fp02](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp02)  
+  Instructions: [aeda1920_fp02.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp02.pdf)   
+  Clean Exercises: [aeda1920_fp02](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp02)  
+  
