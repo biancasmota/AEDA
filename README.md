@@ -18,3 +18,13 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
   Instructions: [aeda1920_fp02.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp02.pdf)   
   Clean Exercises: [aeda1920_fp02](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp02)  
   
+- __2º pratical class (extra)__: polymorphism and static members _(04 of october of 2019)_ 
+  Solution: [aeda1920_fp02_extra](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp02_extra)
+  Instructions: [aeda1920_fp02_extra.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp02_extra.pdf)
+  Clean Exercises: [aeda1920_fp02_extra](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp02_extra)
+
+
+- __3º pratical class__: templates and exception handling _(08 of october of 2019)_
+  Solution: [aeda1920_fp03](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp03)
+  Instructions: [aeda1920_fp03.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp03.pdf)
+  Clean Exercises: [aeda1920_fp03](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp03)
