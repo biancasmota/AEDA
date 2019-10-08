@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="aeda1920_fp01" targetName="gtest" />
       <config projectName="aeda1920_fp01" targetName="aeda1920_fp01" />
+      <config projectName="aeda1920_fp01" targetName="gtest" />
       <config projectName="aeda1920_fp01" targetName="gmock_main" />
       <config projectName="aeda1920_fp01" targetName="gmock" />
       <config projectName="aeda1920_fp01" targetName="gtest_main" />
@@ -17,13 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1b86e07-375d-40fc-89c8-ff4b308764fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/parque.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/parque.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/parque.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/parque.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/parque.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/parque.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/tests.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aeda1920_fp01" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aeda1920_fp01" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/untitled3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/untitled2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,6 +111,9 @@
       <workItem from="1569008849676" duration="759000" />
       <workItem from="1569082823810" duration="68000" />
       <workItem from="1569602850554" duration="4924000" />
+      <workItem from="1569617259678" duration="650000" />
+      <workItem from="1569754899200" duration="6000" />
+      <workItem from="1569785772540" duration="10000" />
     </task>
     <servers />
   </component>
