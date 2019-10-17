@@ -13,6 +13,7 @@ template <class N> class ArestaRepetida;
 template <class N> class NoInexistente;
 template <class N> class ArestaInexistente;
 
+
 template <class N, class A>
 class No {
 public:
