@@ -29,11 +29,11 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
   Clean Exercises: [aeda1920_fp03](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp03)  
 
 - __4º pratical class__: Search algorithm, Sort algorithms (Bubble and insertion Sort), Complexity _(17 of october of 2019)_ 
-  Solution: [aeda1920_fp04](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp05/Tests)  
-  Instructions: [aeda1920_fp04.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp05.pdf)  
-  Clean Exercises: [aeda1920_fp04](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp05)  
+  Solution: [aeda1920_fp04](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp04/Tests)  
+  Instructions: [aeda1920_fp04.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp04.pdf)  
+  Clean Exercises: [aeda1920_fp04](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp04)  
 
 - __5º pratical class__: Lists _(29 of october of 2019)_  
-  Solution: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp04/Tests)  
-  Instructions: [aeda1920_fp05.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp04.pdf)  
-  Clean Exercises: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp04) 
+  Solution: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp05/Tests)  
+  Instructions: [aeda1920_fp05.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp05.pdf)  
+  Clean Exercises: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp05) 
