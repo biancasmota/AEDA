@@ -36,8 +36,8 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
 - __5º pratical class__: Lists _(29th October of 2019)_  
   Solution: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp05/Tests)  
   Instructions: [aeda1920_fp05.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp05.pdf)  
-  Clean Exercises: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp05) 
-    
+  Clean Exercises: [aeda1920_fp05](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp05)  
+  
   - __6º pratical class__: Queue and Stack _(05th November of 2019)_  
   Solution: [aeda1920_fp06](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp06/Tests)  
   Instructions: [aeda1920_fp06.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp06.pdf)  
