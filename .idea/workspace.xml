@@ -9,7 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae1c4e5f-71fb-4130-80e1-65e891162e8b" name="Default Changelist" comment="" />
+    <list default="true" id="ae1c4e5f-71fb-4130-80e1-65e891162e8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/aeda1920_fp05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/aeda1920_fp05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previous tests/Done/aeda1718_ci1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previous tests/Done/aeda1718_ci1/Car.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previous tests/Done/aeda1718_ci1/Car.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previous tests/Done/aeda1718_ci1/Garage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Previous tests/Done/aeda1718_ci1/Test.cpp" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   <component name="ProjectId" id="1S4ApQZY9efKYMsFKp3IldsM81J" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercises/aeda1920_fp03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercises/aeda1920_fp06" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,6 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570812676185</updated>
       <workItem from="1570812677582" duration="26000" />
+      <workItem from="1572358941177" duration="10000" />
+      <workItem from="1572936295122" duration="15000" />
     </task>
     <servers />
   </component>
@@ -61,7 +71,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
