@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/lib/googletest-master/googlemock/include" -isystem "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/lib/googletest-master/googletest/include" -isystem "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/lib/googletest-master/googletest" 
+CXX_INCLUDES = -I"/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/lib/googletest-master/googlemock/include" -isystem "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/lib/googletest-master/googletest/include" -isystem "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/lib/googletest-master/googletest" 
 

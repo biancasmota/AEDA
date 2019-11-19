@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.cpp
+iostream
+-
+string
+-
+fstream
+-
+algorithm
+-
+dicionario.h
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.h
+bst.h
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/bst.h
+
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.h
+string
+-
+fstream
+-
+bst.h
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/bst.h
+

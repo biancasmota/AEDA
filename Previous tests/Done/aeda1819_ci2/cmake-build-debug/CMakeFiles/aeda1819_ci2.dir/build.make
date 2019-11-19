@@ -43,10 +43,10 @@ RM = /home/maruba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2"
+CMAKE_SOURCE_DIR = "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aeda1819_ci2.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/aeda1819_ci2.dir/flags.make
 
 CMakeFiles/aeda1819_ci2.dir/main.cpp.o: CMakeFiles/aeda1819_ci2.dir/flags.make
 CMakeFiles/aeda1819_ci2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda1819_ci2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/main.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda1819_ci2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/main.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/main.cpp"
 
 CMakeFiles/aeda1819_ci2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/main.cpp" > CMakeFiles/aeda1819_ci2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/main.cpp" > CMakeFiles/aeda1819_ci2.dir/main.cpp.i
 
 CMakeFiles/aeda1819_ci2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/main.cpp" -o CMakeFiles/aeda1819_ci2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/main.cpp" -o CMakeFiles/aeda1819_ci2.dir/main.cpp.s
 
 CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o: CMakeFiles/aeda1819_ci2.dir/flags.make
 CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o: ../Tests/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/tests.cpp"
 
 CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp" > CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/tests.cpp" > CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.i
 
 CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp" -o CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/tests.cpp" -o CMakeFiles/aeda1819_ci2.dir/Tests/tests.cpp.s
 
 CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o: CMakeFiles/aeda1819_ci2.dir/flags.make
 CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o: ../Tests/Kart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.o -c "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.cpp"
 
 CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp" > CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.cpp" > CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.i
 
 CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp" -o CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.cpp" -o CMakeFiles/aeda1819_ci2.dir/Tests/Kart.cpp.s
 
 # Object files for target aeda1819_ci2
 aeda1819_ci2_OBJECTS = \
@@ -113,7 +113,7 @@ aeda1819_ci2: lib/libgtestd.a
 aeda1819_ci2: lib/libgtest_maind.a
 aeda1819_ci2: lib/libgtestd.a
 aeda1819_ci2: CMakeFiles/aeda1819_ci2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable aeda1819_ci2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable aeda1819_ci2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aeda1819_ci2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/aeda1819_ci2.dir/clean:
 .PHONY : CMakeFiles/aeda1819_ci2.dir/clean
 
 CMakeFiles/aeda1819_ci2.dir/depend:
-	cd "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2" "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2" "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug" "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug" "/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/cmake-build-debug/CMakeFiles/aeda1819_ci2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2" "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2" "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug" "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug" "/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/cmake-build-debug/CMakeFiles/aeda1819_ci2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/aeda1819_ci2.dir/depend
 

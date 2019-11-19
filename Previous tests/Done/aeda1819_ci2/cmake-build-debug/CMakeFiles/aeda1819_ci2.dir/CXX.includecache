@@ -516,19 +516,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/CSimpleList.h
 iostream
 -
 string
 -
 
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/CStack.h
 iostream
 -
 string
 -
 
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.cpp
 cstdlib
 -
 iostream
@@ -546,9 +546,9 @@ algorithm
 string
 -
 Kart.h
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.h
 
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.h
 cstdlib
 -
 iostream
@@ -562,7 +562,7 @@ vector
 time.h
 -
 
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
@@ -580,9 +580,17 @@ vector
 time.h
 -
 Kart.h
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/Kart.h
 CStack.h
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/CStack.h
 CSimpleList.h
-/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/Tests/CSimpleList.h
+
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/main.cpp
+gtest/gtest.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/gtest/gtest.h
+gmock/gmock.h
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1819_ci2/gmock/gmock.h
+string
+-
 

@@ -31,11 +31,15 @@ public:
 // a alterar
 class PalavraNaoExiste
 {
+    BST<PalavraSignificado> d;
+    string palavra;
 public:
 	string getPalavraAntes() const { return ""; }
 	string getSignificadoAntes() const { return ""; }
 	string getPalavraApos() const { return ""; }
 	string getSignificadoApos() const { return ""; }
+
+    PalavraNaoExiste(BST<PalavraSignificado> D, string Palavra): palavra(Palavra), d(D){}
 };
 
 
