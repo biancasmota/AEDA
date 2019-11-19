@@ -22,7 +22,7 @@ TEST(test_1, test_a){
         for (unsigned int i=0;i<kartsOrdenados.size()-1;i++)
             EXPECT_LE(kartsOrdenados[i].getNumero(), kartsOrdenados[i + 1].getNumero());
 }
-/**
+
 TEST(test_1, test_b){
     CGrupo grupo1;
     grupo1.criaGrupo();
@@ -31,7 +31,6 @@ TEST(test_1, test_b){
     EXPECT_EQ(grupo1.numAvariados(450), 212);
     EXPECT_EQ(grupo1.numAvariados(600), 206);
 }
-**/
 
 TEST(test_1, test_c){
     CGrupo grupo1;
@@ -74,7 +73,7 @@ TEST(test_1, test_d){
 }
 
 
-
+**/
 TEST(test_2, test_a){
 	CStack s1(20);
 	s1.push(1); s1.push(2); s1.push(3);
@@ -96,19 +95,19 @@ TEST(test_2, test_b){
 	s2.inverte4(); //s2.print();
 	EXPECT_EQ("3 2 6 7 4 5 1 ",s2.toStr());
 }
-
 TEST(test_2, test_c){
 	CSimpleList l1, l2, l3;
 	l1.insert_end(1); l1.insert_end(2); l1.insert_end(3);
 	l1.insert_end(4); l1.insert_end(5);
 	l2.insert_end(6); l2.insert_end(7); l2.insert_end(8);
+    l3.insert_end(6); l3.insert_end(7); l3.insert_end(8);
 	//l1.print(); l2.print();
 	l1.intercalar(l2); //l1.print();
 	EXPECT_EQ("1 6 2 7 3 8 4 5 ",l1.toStr());
-	l1.intercalar(l2); //l1.print();
+	l1.intercalar(l3); //l1.print();
 	EXPECT_EQ("1 6 6 7 2 8 7 3 8 4 5 ",l1.toStr());
 }
-
+/**
 TEST(test_2, test_d){
 	CSimpleList l3;
 	int elem[14]  = {1,1,2,2,2,3,3,3,3,4,4,7,8,8};

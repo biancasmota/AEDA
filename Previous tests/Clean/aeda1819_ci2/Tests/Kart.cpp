@@ -65,7 +65,7 @@ int CGrupo::numAvariados(int cilind)
     int total = 0;
     for (int i = 0; i < pistasG.size(); i++){
         for (int j = 0; j < pistasG[i].getKartsAvariados().size(); j++){
-            if (pistasG[i].getKartsAvariados()[j].getCilindrada() == cilind && pistasG[i].getKartsAvariados()[j].getAvariado()) {
+            if (pistasG[i].getKartsAvariados()[j].getCilindrada() == (float)cilind) {
                 total++;
             }
         }

@@ -68,7 +68,18 @@ public:
   	}
 	void intercalar(const CSimpleList &lst) //Grupo 2 c)
 	{
-	
+        CNode* primeiro = first;
+        CNode* segundo = lst.first;
+        while (primeiro != NULL && segundo != NULL){
+            l.toStr()
+            CNode * next = primeiro->next();
+            CNode *seg_next = segundo->next();
+            primeiro->setNext(segundo);
+            segundo = primeiro->next();
+            segundo->setNext(next);
+            primeiro = segundo->next();
+            segundo = seg_next;
+        }
 	}
 	int zipar() //Grupo 2 d)
 	{

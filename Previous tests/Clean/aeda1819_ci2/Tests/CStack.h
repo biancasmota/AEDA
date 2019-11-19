@@ -39,10 +39,28 @@ public:
     }
     void adicionaN(int n)
 	{  //Grupo 2 a)
+        int primeiro = peek();
+        cout << primeiro << endl;
+        for (int i = primeiro+1; i < primeiro+n+1; i++){
+            this->push(i);
+        }
     	
 	}
 	bool inverte4() 
 	{   //Grupo 2 b)
+        if (size() < 4 ) return false;
+        queue<int> q;
+        int elem;
+        for (int i = 0; i < 4; i++){
+            elem = peek();
+            pop();
+            q.push(elem);
+        }
+        for (int i = 0; i < 4; i++){
+            elem = q.front();
+            q.pop();
+            push(elem);
+        }
     	return true;
 	}	
 }; 
