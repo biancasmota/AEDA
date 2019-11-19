@@ -42,8 +42,8 @@ vector <CKart> CPista::getKartsAvariados()
     }
     return aux;
 }
- 
-//Exercicio 1 a)     
+
+//Exercicio 1 a)
 vector<CKart> CGrupo::ordenaKarts()
 {
 
@@ -56,10 +56,10 @@ vector<CKart> CGrupo::ordenaKarts()
 	sort(vord.begin(), vord.end(), [](CKart x1, CKart x2){return x1.getNumero() < x2.getNumero();});
 
 	return vord;
-    
+
 }
 
-//Exercicio 1 b)  
+//Exercicio 1 b)
 int CGrupo::numAvariados(int cilind)
 {
     int total = 0;
@@ -73,26 +73,21 @@ int CGrupo::numAvariados(int cilind)
     return total;
 }
 
-//Exercicio 1 c)   
+//Exercicio 1 c)
 bool CPista::prepararCorrida(int numeroKarts, int cilind)
 {
     int total = 0;
     for (CKart& karts : frotaKartsPista){
-        if (cilind == karts.getCilindrada() && !karts.getAvariado()) {
+        if (cilind == (int)karts.getCilindrada() && !karts.getAvariado()) {
             kartsLinhaPartida.push(karts);
             total++;
         }
         if (total == numeroKarts) return true;
     }
-    for (int i = 0; i < kartsLinhaPartida.size(); i++){
-        CKart kart = kartsLinhaPartida.front();
-        kartsEmProva.push_back(kart);
-        kartsLinhaPartida.pop();
-    }
     return false;
 }
 
-//Exercicio 1 d) 
+//Exercicio 1 d)
 int CPista::inicioCorrida()
 {
     int total = 0;
@@ -104,4 +99,3 @@ int CPista::inicioCorrida()
     }
     return total;
 }
-
