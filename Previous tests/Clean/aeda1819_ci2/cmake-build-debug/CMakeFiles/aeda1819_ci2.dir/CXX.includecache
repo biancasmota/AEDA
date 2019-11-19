@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp
+cstdlib
+-
+iostream
+-
+queue
+-
+sstream
+-
+vector
+-
+time.h
+-
+algorithm
+-
+string
+-
+Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+cstdlib
+-
+iostream
+-
+queue
+-
+sstream
+-
+vector
+-
+time.h
+-
+
