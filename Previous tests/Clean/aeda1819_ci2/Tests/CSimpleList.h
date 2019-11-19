@@ -70,20 +70,35 @@ public:
 	{
         CNode* primeiro = first;
         CNode* segundo = lst.first;
-        while (primeiro != NULL && segundo != NULL){
-            l.toStr()
+        while (primeiro != 0 && segundo != 0){
             CNode * next = primeiro->next();
             CNode *seg_next = segundo->next();
-            primeiro->setNext(segundo);
-            segundo = primeiro->next();
-            segundo->setNext(next);
-            primeiro = segundo->next();
+
+            CNode *novo = new CNode(segundo->data(), next);
+            primeiro->setNext(novo);
+
+            primeiro = next;
             segundo = seg_next;
         }
 	}
 	int zipar() //Grupo 2 d)
 	{
-		return 0;
+        CNode *actual = first;
+        CNode *next = first->next();
+        int total= 0;
+        while (next != 0){
+            if (actual->data() == next->data()) {
+                actual->setNext(next->next());
+                next = actual->next();
+                total++;
+            }
+            else{
+                actual = actual->next();
+                next = actual->next();
+            }
+        }
+
+		return total;
 	}
 }; 
 

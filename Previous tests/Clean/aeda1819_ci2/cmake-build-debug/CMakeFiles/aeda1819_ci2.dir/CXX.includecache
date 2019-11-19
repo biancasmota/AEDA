@@ -516,19 +516,39 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
 iostream
 -
 string
 -
 
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
 iostream
 -
 string
 -
 
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.cpp
+cstdlib
+-
+iostream
+-
+queue
+-
+sstream
+-
+vector
+-
+time.h
+-
+algorithm
+-
+string
+-
+Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
 cstdlib
 -
 iostream
@@ -542,7 +562,7 @@ vector
 time.h
 -
 
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
@@ -560,9 +580,9 @@ vector
 time.h
 -
 Kart.h
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/Kart.h
 CStack.h
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CStack.h
 CSimpleList.h
-/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
+/home/maruba/Documents/AEDA/Previous tests/Clean/aeda1819_ci2/Tests/CSimpleList.h
 

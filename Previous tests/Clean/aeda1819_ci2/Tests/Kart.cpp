@@ -63,9 +63,9 @@ vector<CKart> CGrupo::ordenaKarts()
 int CGrupo::numAvariados(int cilind)
 {
     int total = 0;
-    for (int i = 0; i < pistasG.size(); i++){
-        for (int j = 0; j < pistasG[i].getKartsAvariados().size(); j++){
-            if (pistasG[i].getKartsAvariados()[j].getCilindrada() == (float)cilind) {
+    for (auto& pista: pistasG){
+        for (auto& avariado: pista.getKartsAvariados()){
+            if ((int)avariado.getCilindrada() == cilind) {
                 total++;
             }
         }
@@ -85,6 +85,8 @@ bool CPista::prepararCorrida(int numeroKarts, int cilind)
         if (total == numeroKarts) return true;
     }
     for (int i = 0; i < kartsLinhaPartida.size(); i++){
+        CKart kart = kartsLinhaPartida.front();
+        kartsEmProva.push_back(kart);
         kartsLinhaPartida.pop();
     }
     return false;
@@ -93,6 +95,13 @@ bool CPista::prepararCorrida(int numeroKarts, int cilind)
 //Exercicio 1 d) 
 int CPista::inicioCorrida()
 {
-    return 0;
+    int total = 0;
+    while (!kartsLinhaPartida.empty()){
+        CKart kart = kartsLinhaPartida.front();
+        kartsEmProva.push_back(kart);
+        kartsLinhaPartida.pop();
+        total++;
+    }
+    return total;
 }
 
