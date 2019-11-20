@@ -314,6 +314,20 @@ stack
 queue
 -
 
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.cpp
+iostream
+-
+string
+-
+fstream
+-
+algorithm
+-
+dicionario.h
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.h
+bst.h
+/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/bst.h
+
 /home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/dicionario.h
 string
 -
@@ -321,14 +335,6 @@ fstream
 -
 bst.h
 /home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/bst.h
-
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/jogo.cpp
-jogo.h
-/home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/jogo.h
-sstream
--
-cmath
--
 
 /home/maruba/Documents/AEDA/Exercises/aeda1920_fp07/Tests/jogo.h
 binaryTree.h

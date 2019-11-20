@@ -39,8 +39,8 @@ string Dicionario::consulta(string palavra) const
             return p.retrieve().getSignificado();
         p.advance();
     }
-    throw PalavraNaoExiste(this->getPalavras(), palavra);
 
+    throw PalavraNaoExiste(this->getPalavras(), palavra);
 }
 
 //a alterar

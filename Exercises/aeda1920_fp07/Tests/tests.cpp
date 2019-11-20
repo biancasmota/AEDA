@@ -35,7 +35,7 @@ TEST(test_1, b_ImprimeDicionario){
     fich.close();
     d1.imprime();
 }
-/**
+
 TEST(test_1, c_ConsultaDicionario){
     ifstream fich;
     fich.open("dic.txt");
@@ -56,7 +56,7 @@ TEST(test_1, c_ConsultaDicionario){
         EXPECT_EQ("mamifero da ordem dos primatas", e.getSignificadoApos());
     }
 }
- **/
+
 
 TEST(test_1, d_CorrigeDicionario){
     ifstream fich;
