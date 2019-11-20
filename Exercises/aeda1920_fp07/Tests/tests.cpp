@@ -79,7 +79,7 @@ TEST(test_1, d_CorrigeDicionario){
         EXPECT_EQ("pequeno mamifero roedor de cauda longa", d1.consulta("esquilo"));
     }
 }
-/**
+
 TEST(test_2, a_InicioJogo){
     vector<int> pontos;
     vector<bool> estados;
@@ -146,4 +146,3 @@ TEST(test_2, d_MaisVisitado){
     jogo1.jogada(); jogo1.jogada(); jogo1.jogada();jogo1.jogada();
     EXPECT_EQ(4, jogo1.maisVisitado());
 }
-**/

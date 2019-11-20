@@ -18,6 +18,7 @@ public:
  void mudaEstado() { if (estado==false) estado=true; else estado=false; }
  int getNVisitas() const { return nVisitas; }
  friend ostream &operator << (ostream &os, Circulo &c1);
+ void incVisitas() {nVisitas++;}
 };
 
 
@@ -26,6 +27,7 @@ class Jogo {
 	BinaryTree<Circulo> jogo;
 public:
 	Jogo(int niv, vector<int> &pontos, vector<bool> &estados);
+	BinaryTree<Circulo> Inicial(int pos, int nivel, vector<int> &pontos, vector<bool> &estados);
 	string escreveJogo();
 	int jogada();
 	int maisVisitado();
