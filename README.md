@@ -41,4 +41,9 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
 - __6º pratical class__: Queue and Stack _(05th November of 2019)_  
   Solution: [aeda1920_fp06](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp06/Tests)  
   Instructions: [aeda1920_fp06.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp06.pdf)  
-  Clean Exercises: [aeda1920_fp06](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp06) 
+  Clean Exercises: [aeda1920_fp06](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp06)  
+    
+ - __7º pratical class__: Binary Trees and Binary Search Trees _(20th November of 2019)_  
+  Solution: [aeda1920_fp07](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp07/Tests)  
+  Instructions: [aeda1920_fp07.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp07.pdf)  
+  Clean Exercises: [aeda1920_fp07](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp07) 
