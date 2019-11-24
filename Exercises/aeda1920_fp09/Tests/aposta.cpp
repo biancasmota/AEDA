@@ -7,7 +7,8 @@ using namespace std;
 // a alterar
 bool Aposta::contem(unsigned num) const
 {
-	return true;
+
+    return (numeros.find(num) != numeros.end());
 }
 
 //a alterar
@@ -20,13 +21,18 @@ void Aposta::geraAposta(const vector<unsigned> & valores, unsigned n)
             numeros.insert(*it);
             total++;
         }
+        it++;
     }
 }
 
 //a alterar
 unsigned Aposta::calculaCertos(const tabHInt & sorteio) const
 {
-    return 0;
+    int total = 0;
+    for (auto it = sorteio.begin(); it != sorteio.end(); it++){
+        if (this->contem(*it)) total++;
+    }
+    return total;
 }
 
 

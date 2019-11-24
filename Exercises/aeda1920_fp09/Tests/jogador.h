@@ -11,12 +11,13 @@ struct apostaHash
 {
 	int operator() (const Aposta & ap) const
 	{
-		return 0;
+	    return 0;
+
 	}
 	
 	bool operator() (const Aposta & ap1, const Aposta & ap2) const
 	{
-	    return true;
+	    return ap1.getNumeros() == ap2.getNumeros();
 	}
 };
 

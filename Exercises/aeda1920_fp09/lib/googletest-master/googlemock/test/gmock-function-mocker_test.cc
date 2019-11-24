@@ -30,7 +30,7 @@
 
 // Google Mock - a framework for writing C++ mock classes.
 //
-// This file Tests the function mocker classes.
+// This file tests the function mocker classes.
 #include "gmock/gmock-generated-function-mockers.h"
 
 #if GTEST_OS_WINDOWS
@@ -42,15 +42,10 @@
 
 #include <map>
 #include <string>
+#include <type_traits>
+
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-
-// There is a bug in MSVC (fixed in VS 2008) that prevents creating a
-// mock for a function with const arguments, so we don't test such
-// cases for MSVC versions older than 2008.
-#if !GTEST_OS_WINDOWS || (_MSC_VER >= 1500)
-# define GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
-#endif  // !GTEST_OS_WINDOWS || (_MSC_VER >= 1500)
 
 namespace testing {
 namespace gmock_function_mocker_test {
@@ -69,6 +64,15 @@ using testing::Return;
 using testing::ReturnRef;
 using testing::TypedEq;
 
+template<typename T>
+class TemplatedCopyable {
+ public:
+  TemplatedCopyable() {}
+
+  template <typename U>
+  TemplatedCopyable(const U& other) {}  // NOLINT
+};
+
 class FooInterface {
  public:
   virtual ~FooInterface() {}
@@ -84,9 +88,7 @@ class FooInterface {
 
   virtual bool TakesNonConstReference(int& n) = 0;  // NOLINT
   virtual std::string TakesConstReference(const int& n) = 0;
-#ifdef GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
   virtual bool TakesConst(const int x) = 0;
-#endif  // GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
 
   virtual int OverloadedOnArgumentNumber() = 0;
   virtual int OverloadedOnArgumentNumber(int n) = 0;
@@ -99,6 +101,11 @@ class FooInterface {
 
   virtual int TypeWithHole(int (*func)()) = 0;
   virtual int TypeWithComma(const std::map<int, std::string>& a_map) = 0;
+  virtual int TypeWithTemplatedCopyCtor(const TemplatedCopyable<int>&) = 0;
+
+  virtual int (*ReturnsFunctionPointer1(int))(bool) = 0;
+  using fn_ptr = int (*)(bool);
+  virtual fn_ptr ReturnsFunctionPointer2(int) = 0;
 
 #if GTEST_OS_WINDOWS
   STDMETHOD_(int, CTNullary)() = 0;
@@ -137,10 +144,7 @@ class MockFoo : public FooInterface {
 
   MOCK_METHOD(bool, TakesNonConstReference, (int&));  // NOLINT
   MOCK_METHOD(std::string, TakesConstReference, (const int&));
-
-#ifdef GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
   MOCK_METHOD(bool, TakesConst, (const int));  // NOLINT
-#endif
 
   // Tests that the function return type can contain unprotected comma.
   MOCK_METHOD((std::map<int, std::string>), ReturnTypeWithComma, (), ());
@@ -158,6 +162,11 @@ class MockFoo : public FooInterface {
 
   MOCK_METHOD(int, TypeWithHole, (int (*)()), ());  // NOLINT
   MOCK_METHOD(int, TypeWithComma, ((const std::map<int, std::string>&)));
+  MOCK_METHOD(int, TypeWithTemplatedCopyCtor,
+              (const TemplatedCopyable<int>&));  // NOLINT
+
+  MOCK_METHOD(int (*)(bool), ReturnsFunctionPointer1, (int), ());
+  MOCK_METHOD(fn_ptr, ReturnsFunctionPointer2, (int), ());
 
 #if GTEST_OS_WINDOWS
   MOCK_METHOD(int, CTNullary, (), (Calltype(STDMETHODCALLTYPE)));
@@ -248,7 +257,6 @@ TEST_F(MockMethodFunctionMockerTest, MocksFunctionWithConstReferenceArgument) {
   EXPECT_EQ("Hello", foo_->TakesConstReference(a));
 }
 
-#ifdef GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
 // Tests mocking a function that takes a const variable.
 TEST_F(MockMethodFunctionMockerTest, MocksFunctionWithConstArgument) {
   EXPECT_CALL(mock_foo_, TakesConst(Lt(10)))
@@ -256,7 +264,6 @@ TEST_F(MockMethodFunctionMockerTest, MocksFunctionWithConstArgument) {
 
   EXPECT_FALSE(foo_->TakesConst(5));
 }
-#endif  // GMOCK_ALLOWS_CONST_PARAM_FUNCTIONS
 
 // Tests mocking functions overloaded on the number of arguments.
 TEST_F(MockMethodFunctionMockerTest, MocksFunctionsOverloadedOnArgumentNumber) {
@@ -300,6 +307,11 @@ TEST_F(MockMethodFunctionMockerTest, MocksReturnTypeWithComma) {
 
   EXPECT_EQ(a_map, mock_foo_.ReturnTypeWithComma());
   EXPECT_EQ(a_map, mock_foo_.ReturnTypeWithComma(42));
+}
+
+TEST_F(MockMethodFunctionMockerTest, MocksTypeWithTemplatedCopyCtor) {
+  EXPECT_CALL(mock_foo_, TypeWithTemplatedCopyCtor(_)).WillOnce(Return(true));
+  EXPECT_TRUE(foo_->TypeWithTemplatedCopyCtor(TemplatedCopyable<int>()));
 }
 
 #if GTEST_OS_WINDOWS
@@ -533,7 +545,7 @@ TEST(MockMethodOverloadedMockMethodTest, CanOverloadOnArgNumberInMacroBody) {
 
 #define MY_MOCK_METHODS2_ \
     MOCK_CONST_METHOD1(Overloaded, int(int n)); \
-    MOCK_METHOD1(Overloaded, int(int n));
+    MOCK_METHOD1(Overloaded, int(int n))
 
 class MockOverloadedOnConstness {
  public:
@@ -598,7 +610,6 @@ TEST(MockMethodMockFunctionTest, WorksFor10Arguments) {
   EXPECT_EQ(2, foo.Call(true, 'a', 0, 0, 0, 0, 0, 'b', 1, false));
 }
 
-#if GTEST_HAS_STD_FUNCTION_
 TEST(MockMethodMockFunctionTest, AsStdFunction) {
   MockFunction<int(int)> foo;
   auto call = [](const std::function<int(int)> &f, int i) {
@@ -630,7 +641,6 @@ TEST(MockMethodMockFunctionTest, AsStdFunctionWithReferenceParameter) {
   EXPECT_EQ(-1, call(foo.AsStdFunction(), i));
 }
 
-#endif  // GTEST_HAS_STD_FUNCTION_
 
 struct MockMethodSizes0 {
   MOCK_METHOD(void, func, ());
@@ -653,6 +663,33 @@ TEST(MockMethodMockFunctionTest, MockMethodSizeOverhead) {
   EXPECT_EQ(sizeof(MockMethodSizes0), sizeof(MockMethodSizes2));
   EXPECT_EQ(sizeof(MockMethodSizes0), sizeof(MockMethodSizes3));
   EXPECT_EQ(sizeof(MockMethodSizes0), sizeof(MockMethodSizes4));
+}
+
+void hasTwoParams(int, int);
+void MaybeThrows();
+void DoesntThrow() noexcept;
+struct MockMethodNoexceptSpecifier {
+  MOCK_METHOD(void, func1, (), (noexcept));
+  MOCK_METHOD(void, func2, (), (noexcept(true)));
+  MOCK_METHOD(void, func3, (), (noexcept(false)));
+  MOCK_METHOD(void, func4, (), (noexcept(noexcept(MaybeThrows()))));
+  MOCK_METHOD(void, func5, (), (noexcept(noexcept(DoesntThrow()))));
+  MOCK_METHOD(void, func6, (), (noexcept(noexcept(DoesntThrow())), const));
+  MOCK_METHOD(void, func7, (), (const, noexcept(noexcept(DoesntThrow()))));
+  // Put commas in the noexcept expression
+  MOCK_METHOD(void, func8, (), (noexcept(noexcept(hasTwoParams(1, 2))), const));
+};
+
+TEST(MockMethodMockFunctionTest, NoexceptSpecifierPreserved) {
+  EXPECT_TRUE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func1()));
+  EXPECT_TRUE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func2()));
+  EXPECT_FALSE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func3()));
+  EXPECT_FALSE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func4()));
+  EXPECT_TRUE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func5()));
+  EXPECT_TRUE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func6()));
+  EXPECT_TRUE(noexcept(std::declval<MockMethodNoexceptSpecifier>().func7()));
+  EXPECT_EQ(noexcept(std::declval<MockMethodNoexceptSpecifier>().func8()),
+            noexcept(hasTwoParams(1, 2)));
 }
 
 }  // namespace gmock_function_mocker_test

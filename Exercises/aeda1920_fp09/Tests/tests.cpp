@@ -19,7 +19,7 @@ TEST(test_1, a_GeraAposta){
     ap1.geraAposta(vals,6);
     EXPECT_EQ(6, ap1.getNumeros().size());
 }
-/**
+
 TEST(test_1, b_VerificaAposta){
     vector<unsigned> vals;
     vals.push_back(30); vals.push_back(45); vals.push_back(22);
@@ -141,4 +141,3 @@ TEST(test_2, c_JogadorApostasPremiadas){
 
     EXPECT_EQ(2,jogador1.apostasPremiadas(chave.getNumeros()).size());
 }
- **/

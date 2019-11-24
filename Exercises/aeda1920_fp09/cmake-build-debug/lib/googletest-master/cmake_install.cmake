@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/julia/OneDrive/Documentos/AEDA/Exercises/aeda1920_fp09/lib/googletest-master
+# Install script for directory: /cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Exercises/aeda1920_fp09/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/aeda1920_fp09")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/julia/OneDrive/Documentos/AEDA/Exercises/aeda1920_fp09/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/cygdrive/c/Users/julia/OneDrive/Documentos/AEDA/Exercises/aeda1920_fp09/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 
