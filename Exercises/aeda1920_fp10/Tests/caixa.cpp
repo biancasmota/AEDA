@@ -1,5 +1,6 @@
 #include "caixa.h"
 #include <sstream>
+#include <vector>
 
 
 Objeto::Objeto(unsigned idObj, unsigned pesoObj): id(idObj), peso(pesoObj)
@@ -56,7 +57,18 @@ bool Caixa::operator<(const Caixa& c1) const {
 
 // a alterar
 string Caixa::imprimeConteudo() const {
-	return "";
+    ostringstream os;
+    stack<Objeto> stk = objetos;
+    //caso esteja vazia
+    if(objetos.empty()) return "Caixa " + to_string(this->getID()) + " vazia!\n";
+    //caso não esteja  vazia
+    os << "C" << getID() << "[ ";
+    while(!stk.empty()){
+        os << stk.top() << " ";
+        stk.pop();
+    }
+    os << "]";
+	return os.str();
 }
 
 

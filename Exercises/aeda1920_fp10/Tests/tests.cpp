@@ -119,7 +119,7 @@ TEST(test, b_ProcuraCaixa){
     }
 }
 
-/**
+
 TEST(test, c_EmpacotaObjetos){
     vector<Objeto> objetos;
     objetos.push_back(Objeto(1, 2)); objetos.push_back(Objeto(2, 11));
@@ -219,4 +219,3 @@ TEST(test, f_CaixaMaisObjetos){
     EXPECT_EQ("C5[ O1: 2 O7: 2 O6: 4 ]", cx.imprimeConteudo());
 }
 
-**/
