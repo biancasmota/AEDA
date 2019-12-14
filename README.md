@@ -52,3 +52,8 @@ The solutions have a folder called `lib` for [googleTest testing framework](http
   Solution: [aeda1920_fp09](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp09/Tests)  
   Instructions: [aeda1920_fp09.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp09.pdf)  
   Clean Exercises: [aeda1920_fp09](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp09)
+  
+  - __10º pratical class__: Priority queues _(14th December of 2019)_   
+  Solution: [aeda1920_fp10](https://github.com/Jumaruba/AEDA/tree/master/Exercises/aeda1920_fp10/Tests)  
+  Instructions: [aeda1920_fp10.pdf](https://github.com/Jumaruba/AEDA/blob/master/Instructions/aeda1920_fp10.pdf)  
+  Clean Exercises: [aeda1920_fp10](https://github.com/Jumaruba/AEDA/tree/master/cleanExercises/aeda1920_fp10)  
